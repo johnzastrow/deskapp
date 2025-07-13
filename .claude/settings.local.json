@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(uv add:*)",
+      "Bash(uv run:*)",
+      "Bash(apt list:*)",
+      "Bash(sudo apt install:*)"
+    ],
+    "deny": []
+  }
+}
