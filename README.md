@@ -87,10 +87,12 @@ pyinstaller --onefile main.py
 
 # Windows executable
 Using the main.exe in the dist folder
+
 Or build it yourself using
-`uv venv`
-`uv pip install pyinstaller`
-`uv run pyinstaller --onefile main.py`  main.py informs the .exe name
+
+1. `uv venv`
+2. `uv pip install pyinstaller`
+3. `uv run pyinstaller --onefile main.py`  main.py informs the .exe name
 
 
 ## Requirements Met
